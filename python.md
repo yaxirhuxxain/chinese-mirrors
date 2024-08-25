@@ -1,19 +1,19 @@
 ![image](https://d1q6f0aelx0por.cloudfront.net/product-logos/library-python-logo.png)
 
 
-临时使用
+## Temporary Use
 --
 ```
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 ```
-设为默认
+## Set as Default
 --
-升级 pip 到最新的版本 (>=10.0.0) 后进行配置：
+After upgrading pip to the latest version (>=10.0.0), configure it:
 ```
 pip install pip -U
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-如果您到 pip 默认源的网络连接较差，临时使用清华大学镜像站来升级 pip：
+If your connection to the default pip source is slow, you can temporarily use the Tsinghua University mirror to upgrade pip:
 ```
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
 ```
