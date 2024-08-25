@@ -2,12 +2,10 @@
 
 
 ## Temporary Use
---
 ```
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 ```
 ## Set as Default
---
 After upgrading pip to the latest version (>=10.0.0), configure it:
 ```
 pip install pip -U
